@@ -1,3 +1,6 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
 export default function Promo() {
     return (
       <div className="relative overflow-hidden bg-white">
@@ -80,12 +83,12 @@ export default function Promo() {
                   </div>
                 </div>
   
-                <a
+                <Link
                   href="#"
                   className="inline-block rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700"
                 >
                   Shop Collection
-                </a>
+                </Link>
               </div>
             </div>
           </div>
